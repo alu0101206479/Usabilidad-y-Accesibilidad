@@ -17,7 +17,7 @@
     
     * Entrevistas en grupo: Se preguntará al alumnado acerca del tiempo que realmente dedican a cada actividad, que tiempo consideran que sería el óptimo a dedicar, qué actividades les consumen tiempo que podrían dedicar a otras y otras cuestiones generales.
   
-    * Encuentas: Se realizará una encuesta online a partir de Google a cada alumno para conocer sus hábitos concretos y poder obtener unos datos estadísticos significativos que nos permitan sacar conclusiones sobre cómo se organiza el alumnado, opiniones, propuestas de mejora...
+    * Encuentas: Se realizará una [encuesta online a partir de Google](https://docs.google.com/forms/d/e/1FAIpQLSf0_ej8SxjciekdSPXtzb2vHSsGb4TD5nFrziuJ9-lKXKW3aQ/viewform?usp=sf_link) a cada alumno para conocer sus hábitos concretos y poder obtener unos datos estadísticos significativos que nos permitan sacar conclusiones sobre cómo se organiza el alumnado, opiniones, propuestas de mejora...
 
   Y por otro lado, las tareas que se llevarán a cabo en la fase de diseño conceptual son las siguientes:
     * Identificar a los personajes: A través de las entrevistas y las encuestas, obtendremos datos y características que podemos generalizar para realizar un modelo de persona típico con características, inquietudes e intereses similares.
