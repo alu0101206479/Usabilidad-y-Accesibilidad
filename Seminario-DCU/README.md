@@ -12,5 +12,18 @@
 
 * Definir las tareas que se llevarán a cabo en la fase de investigación y diseño conceptual de la aplicación.
 
+  Las tareas que se llevarán a cabo en la fase de investigación son las siguientes:
+    * Observaciones: Se realizará un análisis en profundidad de las actividades presentes en la universidad y el tiempo estimado que se debería utilizar para realizarlas.
+    
+    * Entrevistas en grupo: Se preguntará al alumnado acerca del tiempo que realmente dedican a cada actividad, que tiempo consideran que sería el óptimo a dedicar, qué actividades les consumen tiempo que podrían dedicar a otras y otras cuestiones generales.
+  
+    * Encuentas: Se realizará una encuesta online a partir de Google a cada alumno para conocer sus hábitos concretos y poder obtener unos datos estadísticos significativos que nos permitan sacar conclusiones sobre cómo se organiza el alumnado, opiniones, propuestas de mejora...
 
+  Y por otro lado, las tareas que se llevarán a cabo en la fase de diseño conceptual son las siguientes:
+    * Identificar a los personajes: A través de las entrevistas y las encuestas, obtendremos datos y características que podemos generalizar para realizar un modelo de persona típico con características, inquietudes e intereses similares.
+    
+    * Identificar los perfiles de usuario: Agruparemos los distintos usuarios según situaciones generales que compartan como la situación demográfica, edad...  
+  
+    * Recopilar los requisitos: A partir de las entrevistas obtendremos el feedback de los posibles usuarios. Determinaremos qué requisitos piensan que debe tener la aplicación web y los tendremos en cuenta a la hora de diseñarla.
+  
 * Definir en el documento los personajes y perfiles de usuario que vayan a usar tu producto y la especificación de requisitos.
