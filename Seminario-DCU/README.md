@@ -10,6 +10,13 @@
 
   Las tareas que se llevarán a cabo en la fase de investigación son las siguientes:
     * Observaciones: Se realizará un análisis en profundidad de las actividades presentes en la universidad y el tiempo estimado que se debería utilizar para realizarlas.
+
+      Como resultado de la observación, sacamos en claro que la tasa de abandono en la carrera ha disminuido con el paso del tiempo al igual que se ha incrementado el rendimiento y el éxito.
+
+      ![Tasa de abandono de Ingeniería Informática en la ULL](Imagenes/Tasa_de_abandono_if_ull.JPG)
+
+      En las directrices generales para diseñar nuevas titulaciones de grado aprobadas en 2008, se estipuló que, los créditos de las titulaciones, denominados ECTS, computan, además de las horas en el aula, el tiempo que se dedica al estudio y la elaboración de los trabajos de clase. En este sentido, cada crédito ECTS corresponde a 25 horas, repartidas en diez horas presenciales y quince de trabajo personal del alumno. Mediante las entrevistas comprobaremos si esas quince horas son realistas y si el alumnado trabaja más o menos horas de manera autónoma.
+
     
     * Entrevistas en grupo: Se preguntará al alumnado acerca del tiempo que realmente dedican a cada actividad, que tiempo consideran que sería el óptimo a dedicar, qué actividades les consumen tiempo que podrían dedicar a otras y otras cuestiones generales
     
