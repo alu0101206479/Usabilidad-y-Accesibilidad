@@ -64,7 +64,7 @@ Tras realizar las diversas entrevistas y encuestas a varios usuarios de la unive
     * Personas del resto de la isla.
     * Personas de otras islas.  
 
-   Tras observar las estadísticas obtenidas en las encuestas realizadas, hemos observado que la gran parte de los alumnos son menores a 25 años, otro de los hechos destacables es que la gran mayoría pierden el tiempo en las redes sociales y que además las personas del sur de tenerife son los que el transporte les supone una gran pérdida de tiempo.
+    Tras observar las estadísticas obtenidas en las encuestas realizadas, hemos observado que la gran parte de los alumnos son menores a 25 años, otro de los hechos destacables es que la gran mayoría pierden el tiempo en las redes sociales y que además las personas del sur de tenerife son los que el transporte les supone una gran pérdida de tiempo.
 
   * Especificación de requisitos:  
   Una vez analizados los resultados obtenidos en las encuestas propuestas hemos obtenido que los requisitos solicitados por los usuarios que harán uso de la aplicación web serían los siguientes:
