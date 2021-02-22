@@ -22,6 +22,8 @@
     
       Preguntas a realizar en la entrevista:
 
+      * ¿Has pensado en abandonar la carrera?, si es así ¿Es este un pensamiento recurrente?
+      * ¿Consideras que dedicas 90 horas de trabajo autónomo en todo el cuatrimestre para cada asignatura, dedicas más, o dedicas menos?
       * ¿Qué asignatura ha sido la que más te ha costado?
       * ¿Qué curso hasta el momento te ha resultado más complicado?
       * ¿Creen que alguna asignatura les ha quitado tiempo de otras asignaturas que consideran más importantes?
