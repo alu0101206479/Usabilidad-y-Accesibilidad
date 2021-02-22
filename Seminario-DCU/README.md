@@ -55,9 +55,22 @@ Tras realizar las diversas entrevistas y encuestas a varios usuarios de la unive
     
     ![Personaje2](Imagenes/Persona2.JPG)  
   * Perfiles de usuarios  
+  Nuestra plataforma principalmente va a ser usada por dos perfiles de usuario bien distinguidos, entre estos perfiles de usuarios podemos observar el perfil del alumnado encargado de gestionar sus propias tareas y el personal docente, encargado de programarlas.
+
+  Dentro de el alumnado podemos desarrollar distintos perfiles que engloban usuarios con características similares, entre ellos están:
+
+    * Personas que prefieren trabajar/estudiar en grupo.
+    * Personas que prefieren trabajar/estudiar individualmente.
+    * Personas del sur de la isla.
+    * Personas del resto de la isla.
+    * Personas de otras islas.
+
+    Tras observar las estadísticas obtenidas en las encuestas realizadas, hemos observado que la gran parte de los alumnos son menores a 25 años, otro de los hechos destacables es que la gran mayoría pierden el tiempo en las redes sociales y que además las personas del sur de tenerife son los que el transporte les supone una gran pérdida de tiempo.
+
   
 
-  * Especificación de requisitos:
+  * Especificación de requisitos:  
+  Una vez analizados los resultados obtenidos en las encuestas propuestas hemos obtenido que los requisitos solicitados por los usuarios que harán uso de la aplicación web serían los siguientes:
     * Tener un calendario para gestionar lo que se anote.
     * Notificar y gestionar eventos próximos y descansos (Recordatorios)
     * Controlador de estado de tareas en tiempo real
