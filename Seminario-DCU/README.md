@@ -49,3 +49,17 @@
     * Recopilar los requisitos: A partir de las entrevistas obtendremos el feedback de los posibles usuarios. Determinaremos qué requisitos piensan que debe tener la aplicación web y los tendremos en cuenta a la hora de diseñarla.
   
 * **Definir en el documento los personajes y perfiles de usuario que vayan a usar tu producto y la especificación de requisitos.**
+
+  * Especificación de requisitos:
+    * Tener un calendario para gestionar lo que se anote.
+    * Notificar y gestionar eventos próximos y descansos (Recordatorios)
+    * Controlador de estado de tareas en tiempo real
+    * Lista tareas u objetivos con fechas límites y una vez pasada la “fecha límite” esta sea eliminada de la lista
+    * Ordenar lista de tareas u objetivos por fecha de entrega
+    * Que sea accesible desde cualquier dispositivo
+    * Si hay colapso entre trabajos o estudios, que la aplicación web avise ya que seguramente es un error.
+    * Posibilidad de marcar tareas como
+      * Realizada 
+      * Entregada
+      * A medias
+      * Sin empezar
