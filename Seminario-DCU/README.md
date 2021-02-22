@@ -51,7 +51,9 @@
 * **Definir en el documento los personajes y perfiles de usuario que vayan a usar tu producto y la especificación de requisitos.**  
 Tras realizar las diversas entrevistas y encuestas a varios usuarios de la universidad hemos observado los resultados obtenidos sacando las siguientes conclusiones acerca de los personajes, usuarios y requisitos que debe disponer dicha aplicación web:
   * Personajes  
-    ![Personaje1](Imagenes/persona1.JPG)
+    ![Personaje1](Imagenes/persona1.JPG)  
+    
+    ![Personaje2](Imagenes/Persona2.JPG)  
   * Perfiles de usuarios  
   
 
