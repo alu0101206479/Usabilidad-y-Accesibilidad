@@ -4,6 +4,8 @@
 
 ![Apartado 1 Imagen](Imagenes/apartado_1.JPG)
 
+
+
 ### 2. Aplicar el DCU para la realización de un prototipo de una aplicación web para la gestión y optimización del tiempo de estudio de un estudiante del Grado en Ingeniería Informática de la ULL. Para ello:
 
 * **Definir las tareas que se llevarán a cabo en la fase de investigación y diseño conceptual de la aplicación.**
@@ -48,29 +50,29 @@
   
     * Recopilar los requisitos: A partir de las entrevistas obtendremos el feedback de los posibles usuarios. Determinaremos qué requisitos piensan que debe tener la aplicación web y los tendremos en cuenta a la hora de diseñarla.
   
-* **Definir en el documento los personajes y perfiles de usuario que vayan a usar tu producto y la especificación de requisitos.** 
-*  
+  
+* **Definir en el documento los personajes y perfiles de usuario que vayan a usar tu producto y la especificación de requisitos.**
+
 Tras realizar las diversas entrevistas y encuestas a varios usuarios de la universidad hemos observado los resultados obtenidos sacando las siguientes conclusiones acerca de los personajes, usuarios y requisitos que debe disponer dicha aplicación web:
   * Personajes:
-  
-    ![Personaje1](Imagenes/persona1.JPG)  
+    ![Personaje 1](Imagenes/Persona1.JPG)   
     
-    ![Personaje2](Imagenes/Persona2.JPG)
+    ![Personaje2](Imagenes/Persona2.JPG) 
     
-  * Perfiles de usuarios:
-  Nuestra plataforma principalmente va a ser usada por dos perfiles de usuario bien distinguidos, entre estos perfiles de usuarios podemos observar el perfil del alumnado encargado de gestionar sus propias tareas y el personal docente, encargado de programarlas.  
-  Dentro de el alumnado podemos desarrollar distintos perfiles que engloban usuarios con características similares, entre ellos están:  
-  
+  * Perfiles de usuarios:   
+    Nuestra plataforma principalmente va a ser usada por dos perfiles de usuario bien distinguidos, entre estos perfiles de usuarios podemos observar el perfil del alumnado encargado de gestionar sus propias tareas y el personal docente, encargado de programarlas.  
+    Dentro de el alumnado podemos desarrollar distintos perfiles que engloban usuarios con características similares, entre ellos están:
+    
     * Personas que prefieren trabajar/estudiar en grupo.
     * Personas que prefieren trabajar/estudiar individualmente.
     * Personas del sur de la isla.
     * Personas del resto de la isla.
     * Personas de otras islas.  
-
+    
     Tras observar las estadísticas obtenidas en las encuestas realizadas, hemos observado que la gran parte de los alumnos son menores a 25 años, otro de los hechos destacables es que la gran mayoría pierden el tiempo en las redes sociales y que además las personas del sur de tenerife son los que el transporte les supone una gran pérdida de tiempo.
 
   * Especificación de requisitos:  
-  Una vez analizados los resultados obtenidos en las encuestas propuestas hemos obtenido que los requisitos solicitados por los usuarios que harán uso de la aplicación web serían los siguientes:
+  Una vez analizados los resultados obtenidos en las encuestas propuestas hemos obtenido que los requisitos solicitados por los usuarios que harán uso de la aplicación web serían los siguientes: 
     * Tener un calendario para gestionar lo que se anote.
     * Notificar y gestionar eventos próximos y descansos (Recordatorios)
     * Controlador de estado de tareas en tiempo real
@@ -78,7 +80,7 @@ Tras realizar las diversas entrevistas y encuestas a varios usuarios de la unive
     * Ordenar lista de tareas u objetivos por fecha de entrega
     * Que sea accesible desde cualquier dispositivo
     * Si hay colapso entre trabajos o estudios, que la aplicación web avise ya que seguramente es un error.
-    * Posibilidad de marcar tareas como
+    * Posibilidad de marcar tareas como 
       * Realizada 
       * Entregada
       * A medias
