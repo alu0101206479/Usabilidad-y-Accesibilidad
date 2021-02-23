@@ -55,7 +55,7 @@
 
 Tras realizar las diversas entrevistas y encuestas a varios usuarios de la universidad hemos observado los resultados obtenidos sacando las siguientes conclusiones acerca de los personajes, usuarios y requisitos que debe disponer dicha aplicación web:
   * Personajes:
-    ![Personaje 1](Imagenes/Persona1.JPG)   
+    ![Personaje 1](Imagenes/persona1.JPG)   
     
     ![Personaje2](Imagenes/Persona2.JPG) 
     
