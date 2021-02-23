@@ -48,13 +48,16 @@
   
     * Recopilar los requisitos: A partir de las entrevistas obtendremos el feedback de los posibles usuarios. Determinaremos qué requisitos piensan que debe tener la aplicación web y los tendremos en cuenta a la hora de diseñarla.
   
-* **Definir en el documento los personajes y perfiles de usuario que vayan a usar tu producto y la especificación de requisitos.**  
+* **Definir en el documento los personajes y perfiles de usuario que vayan a usar tu producto y la especificación de requisitos.** 
+*  
 Tras realizar las diversas entrevistas y encuestas a varios usuarios de la universidad hemos observado los resultados obtenidos sacando las siguientes conclusiones acerca de los personajes, usuarios y requisitos que debe disponer dicha aplicación web:
-  * Personajes  
+  * Personajes:
+  
     ![Personaje1](Imagenes/persona1.JPG)  
     
-    ![Personaje2](Imagenes/Persona2.JPG)  
-  * Perfiles de usuarios  
+    ![Personaje2](Imagenes/Persona2.JPG)
+    
+  * Perfiles de usuarios:
   Nuestra plataforma principalmente va a ser usada por dos perfiles de usuario bien distinguidos, entre estos perfiles de usuarios podemos observar el perfil del alumnado encargado de gestionar sus propias tareas y el personal docente, encargado de programarlas.  
   Dentro de el alumnado podemos desarrollar distintos perfiles que engloban usuarios con características similares, entre ellos están:  
   
