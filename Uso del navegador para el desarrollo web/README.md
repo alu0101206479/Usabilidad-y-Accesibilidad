@@ -19,19 +19,15 @@
  
  
 **4. Qué DNS tiene el servidor**  
-  Microsoft-IIS/7.5 IP:
-  * www3.gobiernodecanarias.org
-  * www3.gobiernodecanarias.org
+  www3.gobiernodecanarias.org
 
 
 **5. Qué IP tiene tiene el servidor**   
-	* 93.188.136.126:443  
-	www3.gobiernodecanarias.org
- 
+ 93.188.136.126:443  
  
 **6. ¿La página tiene alguna cookie?, ¿Cuáles?.**   
-  Si, las siguientes:
-    * ASP.NET_SessionId
+  Si, las siguientes:  
+  + ASP.NET_SessionId
  
 
 **7. ¿Qué idioma acepta?.**   
