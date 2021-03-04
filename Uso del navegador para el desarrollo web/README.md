@@ -1,13 +1,13 @@
 ## Uso del navegador para el desarrollo web
 **1. Qué peticiones desencadena la consulta.** 
   * Peticiones HTML
-	  * citasalud/
+	* citasalud/
   * Peticiones css
-	  * all.css
-    * Peticiones JavaScript
-	  * jquery?v=EEZBCVzQe1TpkEUeLfjEm53wpuqSSXGjiXFWAVaewp81
+	* all.css
+  * Peticiones JavaScript
+	* jquery?v=EEZBCVzQe1TpkEUeLfjEm53wpuqSSXGjiXFWAVaewp81
   * Peticiones de imágenes
-	  * SCS_logo_texBajo_conjunto.jpg
+	* SCS_logo_texBajo_conjunto.jpg
 
  
 **2. ¿Qué tipo de petición estás realizando?**  
@@ -20,13 +20,13 @@
  
 **4. Qué DNS tiene el servidor**  
   Microsoft-IIS/7.5 IP:
-    * www3.gobiernodecanarias.org
-    * www3.gobiernodecanarias.org
+  * www3.gobiernodecanarias.org
+  * www3.gobiernodecanarias.org
 
 
 **5. Qué IP tiene tiene el servidor**   
-   + 93.188.136.126:443  
-www3.gobiernodecanarias.org
+	* 93.188.136.126:443  
+	www3.gobiernodecanarias.org
  
  
 **6. ¿La página tiene alguna cookie?, ¿Cuáles?.**   
