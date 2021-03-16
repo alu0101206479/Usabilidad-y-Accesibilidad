@@ -6,5 +6,11 @@
 
 Repositorio creado para las tareas de usabilidad y accesibilidad, que son las siguientes:
 
-* [Seminario DCU](https://github.com/alu0101206479/Usabilidad-y-Accesibilidad/tree/main/Seminario-DCU)
-* [Uso del navegador para el desarrollo web](https://github.com/alu0101206479/Usabilidad-y-Accesibilidad/tree/main/Uso%20del%20navegador%20para%20el%20desarrollo%20web)
+* Seminarios:
+  * [Seminario DCU](https://github.com/alu0101206479/Usabilidad-y-Accesibilidad/tree/main/Seminario-DCU)
+  * [Legislación Accesibilidad](https://github.com/alu0101206479/Usabilidad-y-Accesibilidad/tree/main/Legislaci%C3%B3n-Accesibilidad)
+  * [Perceptible](https://github.com/alu0101206479/Usabilidad-y-Accesibilidad/tree/main/Perceptible)
+
+* Prácticas:
+  * [Uso del navegador para el desarrollo web](https://github.com/alu0101206479/Usabilidad-y-Accesibilidad/tree/main/Uso%20del%20navegador%20para%20el%20desarrollo%20web)
+  * [Introducción a HTML](https://github.com/alu0101206479/Usabilidad-y-Accesibilidad/tree/main/html)
