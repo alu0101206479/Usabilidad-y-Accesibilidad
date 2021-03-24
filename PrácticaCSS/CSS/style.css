@@ -1,0 +1,111 @@
+body {
+  width: 770px;
+}
+
+header {
+  display: block;
+  padding: auto;
+  height: 100px;
+  background: url(Cabecera.jpg);
+}
+
+.Central {
+  display: inline-block;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  font-size: 1.5em;
+}
+
+.Central p{
+  margin-top: 0.5em;
+}
+
+.Principal {
+  width: 355px;
+  height: 100vh;
+  margin: 5px;
+  margin-left: 0px;
+  float: left;
+  background-color: #aa8caf;
+}
+
+.Principal img {
+  width: 320px;
+  margin: 15px;
+}
+
+.Secundario {
+  float: left;
+  width: 260px;
+  height: 100vh;
+  margin: 5px;
+  background-color: #c6b1c9;
+}
+
+.Enlaces {
+  float: right;
+  width: 130px;
+  height: 100vh;
+  margin: 5px;
+  background-color: #e2d8e4;
+}
+
+a {
+  color: blue;
+}
+
+a:hover {
+  color: red;
+}
+
+footer {
+  height: 100px;
+  background-color: #5C068C;
+  color: white;
+  text-align:center;
+  padding-top: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  font-size: 1.5em;
+}
+
+.navbar {
+  display: inline-block;
+  background: #5C068C;
+  color: white;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  padding-left: 7%;
+  padding-right: 7%;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-bottom: 1%;
+  margin-top: 2%;
+  border: 1px solid white;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  font-size: 1.5em;
+  text-decoration: none;
+}
+
+/*Cambiar color del menu de navegación cuando pasa por arriba el ratón */
+a:hover.navbar {
+  background-color: #9c7eac;
+}
+
+table {
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+  border: 3px solid black;
+ 
+}
+
+table a {
+  color: green;
+}
+
+th, td {
+  text-align: center;
+  border: 1px solid black;
+}
