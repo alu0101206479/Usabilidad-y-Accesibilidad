@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/jquery.validate.js"></script>
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/additional-methods.min.js"></script>
+    <link rel="stylesheet" href="style/style.css" type="text/css">
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+     <!-- Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+                
+  </head>
+  <body>
+    <header class="container">
+      <h1>Práctica JavaScript, Ajax y Firebase</h1>
+    </header>
+    <div class="container" id="enunciado">
+      <p>1. Crear una página Web que contenga un formulario con un botón. Cuando el usuario pincha el botón se debe mostrar el contenido que devuelve el servicio web: https://jsonplaceholder.typicode.com/comments?postId=parametro en un párrafo</p>
+        
+    </div>
+    
+    <div class="container">
+      <form id="formulario">
+
+        <label for="numid"><b>Introduce un Postid: </b></label>
+        <input id="numid" type="text" name="numid" placeholder="1"/>
+        <a id="btn1" class="waves-effect waves-light btn"><i class="material-icons left">send</i>mostrar</a>
+      </form>
+  
+      <p class ="pantalla" id="pantalla"></p>
+  
+      <hr>
+    </div>
+    <script>
+      // just for the demos, avoids form submit
+      jQuery.validator.setDefaults({
+        debug: true,
+        success: "valid"
+      });
+      $( "#formulario" ).validate({
+        rules: {
+          numid: {
+            required: true,
+            number: true
+          }
+        }
+
+        
+      });
+      </script>
+
+      <script>
+        // cambiar mensaje de error
+        jQuery.extend(jQuery.validator.messages, {
+            required: "El campo no puede estar vacío.",
+            number: "El valor introducido no es un numero."
+        });
+      </script>
+
+      <script>
+      
+        $(document).ready(function(){
+          $("#btn1").click(function(){
+          $.getJSON("https://jsonplaceholder.typicode.com/comments?postId=" + $("#numid").val(), function(result){
+              $.each(result, function(index, resultindex){
+                $("p.pantalla").append("<strong> Postid:  </strong> " + resultindex.postId + 
+                                      "<br><strong> id:  </strong>" + resultindex.id + 
+                                      "<br> <strong> name:  </strong>" + resultindex.name + 
+                                      "<br> <strong> email:  </strong> " + resultindex.email + 
+                                      "<br> <strong> text:  </strong>" + resultindex.body + 
+                                      "<br><br>");
+              });
+            });
+          });
+        });
+    
+      </script>
+
+          
+    
+    <div>
+      <p class="container" id="enunciado">2. Insertar o  actualizar información en una base de datos Firebase desde alguna página de tu proyecto.</p>
+    </div>
+
+      
+        
+    <div class="container">
+      <br>
+      <form id="ej2">
+
+        <label><b>Añadir contenido a la base de datos (se añadirá el contenido mostrado en el ejercicio anterior según el Postid): </b></label>
+        <br><br>
+        <a id="btn2" class="waves-effect waves-light btn"><i class="material-icons left">cloud_upload</i>añadir</a>
+      </form>
+
+      <hr>
+    </div>
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+    https://firebase.google.com/docs/web/setup#available-libraries -->
+   
+    <script src="https://www.gstatic.com/firebasejs/8.3.3/firebase-database.js"></script>
+
+    <script>
+            
+      $(document).ready(function(){
+        $("#btn2").click(function(){
+
+                // Your web app's Firebase configuration
+                var firebaseConfig = {
+                  apiKey: "AIzaSyD_CVAEVDPmTsMAgs5w5H2OHCouxvh1D5A",
+                  authDomain: "uya---ajax-y-firebase.firebaseapp.com",
+                  projectId: "uya---ajax-y-firebase",
+                  storageBucket: "uya---ajax-y-firebase.appspot.com",
+                  messagingSenderId: "180765487815",
+                  appId: "1:180765487815:web:c85737668d912cf88544e2"
+                };
+
+                // Initialize Firebase
+                firebase.initializeApp(firebaseConfig);
+
+                // Usar id como referencia
+
+                var ref =  "id " + $("#numid").val().toString();
+
+                //Referencia a la base de datos
+                var database = firebase.database();
+                var referencia = database.ref(ref);
+
+                //Escribir un documento
+                var cont = $("#pantalla")
+                                .clone()    //clone the element
+                                .children() //select all the children
+                                .remove()   //remove all the children
+                                .end()  //again go back to selected element
+                                .text();    //get the text of element
+                cont = cont.replace(/[0-9]/g, '');
+                cont = cont.slice(2)
+                referencia.set({
+                      id: $("#numid").val(),
+                      contenido: cont
+                });
+
+                //Consultar datos, se muestran todos los datos en la raíz
+                referencia = database.ref('/');
+                referencia.once('value', snapshot => {
+                  console.log(snapshot.val());
+                });
+                $("p.mostrarBBDD").append("¡AVISO! Se acaban de mostrar por consola todos los datos de la base de datos");
+          });
+      });
+
+    </script>
+
+    <div class="container">
+      <p class="mostrarBBDD" id="mostrarBBDD"></p>
+    </div>
+  </body>
+    
+</html>
