@@ -26,3 +26,4 @@ Repositorio creado para las tareas de usabilidad y accesibilidad, que son las si
   * [Práctica - Metodología Seguimiento Accesibilidad](https://github.com/alu0101206479/Usabilidad-y-Accesibilidad/tree/main/Pr%C3%A1ctica%20-%20Metodolog%C3%ADa%20Seguimiento%20Accesibilidad)
   * [Práctica - Core Web Vitals](https://github.com/alu0101206479/Usabilidad-y-Accesibilidad/tree/main/Pr%C3%A1ctica%20-%20Core%20Web%20Vitals)
   * [Práctica - Evalucación heurística](https://github.com/alu0101206479/Usabilidad-y-Accesibilidad/tree/main/Evaluaci%C3%B3n%20Heur%C3%ADstica)
+  * [Práctica - Exposición](https://github.com/alu0101206479/Usabilidad-y-Accesibilidad/tree/main/Presentaci%C3%B3n%20Final) 
